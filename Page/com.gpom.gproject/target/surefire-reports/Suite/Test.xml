@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Ilamaran" name="com.gpom.testcasespackage.Testcases" tests="1" failures="1" timestamp="29 Jul 2017 15:58:02 GMT" time="15.775" errors="0">
+  <testcase name="googleTest" time="15.758" classname="com.gpom.testcasespackage.Testcases">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;zadaniem testu&amp;gt; but was:&amp;lt;Luksusowe zadanie testowe&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<zadaniem testu> but was:<Luksusowe zadanie testowe>
+	at com.gpom.gproject.googlepages.Translatepage.enterText(Translatepage.java:72)
+	at com.gpom.testcasespackage.Testcases.googleTest(Testcases.java:37)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>
